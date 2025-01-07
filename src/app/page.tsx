@@ -58,13 +58,14 @@ export default function Home() {
           <p className="text-lg">
             I am Prachi Dalal, a Data Scientist with a Master of Science in Business Analytics and a Certificate in Applied Machine Learning. I am currently seeking an opportunity to push the limits of my skills and expertise.
             <br /><br /> {/* This adds a line space */}
-            My work is driven by a deep interest in the role technology plays in the evolution of the mind. This subtle yet powerful influence intersects with areas such as socioeconomic and social impacts, neurology, physics, philosophy, and more. Currently, I am focused on an interdisciplinary project that explores how language plays a crucial role in the brain's processes of creativity and abstraction. Specifically, I am developing a Large Language Model (LLM) to quantify "conceptual complexity" by analyzing linguistic structures and cognitive patterns. My research integrates the capabilities of transformer architecture with current psychological insights to explore how these systems contribute to our intellectual evolution.
+            My work is driven by a deep interest in the role technology plays in the evolution of the mind. This subtle yet powerful influence intersects with areas such as socioeconomic and social impacts, neurology, physics, philosophy, and more. Currently, I am focused on an interdisciplinary project that explores how language plays a crucial role in the brain's processes of creativity and abstraction. Specifically, I am developing a Large Language Model (LLM) to quantify &quot;conceptual complexity&quot; by analyzing linguistic structures and cognitive patterns. My research integrates the capabilities of transformer architecture with current psychological insights to explore how these systems contribute to our intellectual evolution.
           </p>
         </div>
       </main>
     </div>
   );
 }
+
 
 
 
