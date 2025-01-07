@@ -39,15 +39,15 @@ const AboutPage = () => {
       {/* About Page Content */}
       <div className="flex flex-col items-center justify-center p-8 text-center">
         <h1 className="text-4xl font-bold mb-4 text-black">Welcome to Dal De Artifex</h1>
-        <p className="text-lg max-w-2xl text-gray-700 text-justify">
-          Dal De Artifex is an exploration of the interplay between technology, creativity, and consciousness. At its heart is the concept of the "splitting of the artist"—a project that merges the precise capabilities of technology with the irreplaceable abstraction created by the human mind. This idea envisions technology as a tool not to replace, but to deepen and expand the realm of artistic expression, pushing us further into the uncharted territories of creativity.
+        <p className="text-lg">
+          Dal De Artifex is an exploration of the interplay between technology, creativity, and consciousness. At its heart is the concept of the &quot;splitting of the artist&quot;—a project that merges the precise capabilities of technology with the irreplaceable abstraction created by the human mind. This idea envisions technology as a tool not to replace, but to deepen and expand the realm of artistic expression, pushing us further into the uncharted territories of creativity.
           <br /><br />
-          This website also examines how technology has given rise to a "hive mind," collapsing the dimensional boundaries of physical space into a two-dimensional digital plane. In this shared space, we exist simultaneously across multiple realms, connected by threads of collective knowledge and thought. This unique phenomenon inspires the projects showcased here, which seek to navigate the intersection of human abstraction and technological innovation.
+          This website also examines how technology has given rise to a &quot;hive mind,&quot; collapsing the dimensional boundaries of physical space into a two-dimensional digital plane. In this shared space, we exist simultaneously across multiple realms, connected by threads of collective knowledge and thought. This unique phenomenon inspires the projects showcased here, which seek to navigate the intersection of human abstraction and technological innovation.
           <br /><br />
           Dal De Artifex features multidisciplinary projects that blend my passion for knowledge, creativity, and technology. From creative technical exploration to philosophical musings and artistic endeavors, each project reflects my fascination with how technology shapes the way we think, create, and connect with one another.
           <br /><br />
-          Whether you're here to explore the conceptual depths of art and technology or to engage with projects that bridge diverse disciplines, Dal De Artifex invites you to join in this journey of discovery and inspiration.
-        </p>
+          Whether you&apos;re here to explore the conceptual depths of art and technology or to engage with projects that bridge diverse disciplines, Dal De Artifex invites you to join in this journey of discovery and inspiration.
+          </p>
       </div>
     </div>
   );
