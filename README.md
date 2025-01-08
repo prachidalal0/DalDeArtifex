@@ -131,8 +131,8 @@ This project is deployed on [Vercel](https://vercel.com):
 ---
 
 ## Contact
-Feel free to reach out:
-- **Email**: prachidalal2@gmail.com
+Feel free to reach out for collaborations or inquiries:
+- **Email**: prachidalal084@gmail.com
 - **LinkedIn**: [Prachi Dalal](https://www.linkedin.com/in/prachidalal2/)
 - **GitHub**: [@prachidalal0](https://github.com/prachidalal0)
 
