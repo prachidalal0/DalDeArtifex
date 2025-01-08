@@ -8,11 +8,14 @@ const AboutPage = () => {
     <div className="flex flex-col min-h-screen p-0 m-0 bg-gray-100">
       {/* Header Section */}
       <header className="flex justify-between items-center w-full p-4 bg-black text-white sticky top-0 z-10">
-        <h1 className="text-2xl font-bold">
-          <Link href="/" className="hover:underline">
-            Dal De Artifex
-          </Link>
-        </h1>
+        <Link href="/" className="hover:underline">
+          {/* Replace "Dal De Artifex" with Image */}
+          <img
+            src="/images/Dal_Icon.png"
+            alt="Dal De Artifex Icon"
+            className="h-11" 
+          />
+        </Link>
 
         <nav className="flex gap-6 text-lg font-medium">
           <Link href="/about" className="hover:text-blue-600 transition-colors">
@@ -27,10 +30,18 @@ const AboutPage = () => {
           <Link href="/trinkets" className="hover:text-blue-600 transition-colors">
             Trinkets
           </Link>
-          <Link href="https://www.linkedin.com/in/prachidalal2/" target="_blank" className="hover:text-blue-600 transition-colors">
+          <Link
+            href="https://www.linkedin.com/in/prachidalal2/"
+            target="_blank"
+            className="hover:text-blue-600 transition-colors"
+          >
             LinkedIn
           </Link>
-          <Link href="https://github.com/prachidalal0" target="_blank" className="hover:text-blue-600 transition-colors">
+          <Link
+            href="https://github.com/prachidalal0"
+            target="_blank"
+            className="hover:text-blue-600 transition-colors"
+          >
             GitHub
           </Link>
         </nav>
@@ -38,7 +49,9 @@ const AboutPage = () => {
 
       {/* About Page Content */}
       <main className="flex flex-col items-center justify-center flex-grow p-8">
-        <h2 className="text-2xl font-semibold text-gray-800 text-center mb-4">Welcome to Dal De Artifex</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 text-center mb-4">
+          Welcome to Dal De Artifex
+        </h2>
         <div className="text-gray-700 max-w-xl text-justify">
           <p className="text-lg">
             Dal De Artifex is an exploration of the interplay between technology, creativity, and consciousness. At its heart is the concept of the &quot;splitting of the artist&quot;—a project that merges the precise capabilities of technology with the irreplaceable abstraction created by the human mind. This idea envisions technology as a tool not to replace, but to deepen and expand the realm of artistic expression, pushing us further into the uncharted territories of creativity.
@@ -56,7 +69,6 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
-
 
 
 
