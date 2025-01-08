@@ -144,7 +144,7 @@ export default function Home() {
         <div className="text-gray-700">
           <h3 className="text-xl font-semibold mb-2">Reddit Complexity LLM</h3>
           <p className="text-justify">
-            I am building a custom Large Language Model (LLM) inspired by linguistic structures and cognitive abstraction. This project quantifies "conceptual complexity" in Reddit comments, measuring syntax intricacy, noun usage, and abstractness. By bridging the gap between NLP and psychological insights, I aim to explore how language reflects intellectual evolution.
+            I am building a custom Large Language Model (LLM) inspired by linguistic structures and cognitive abstraction. This project quantifies &quot;conceptual complexity&quot; in Reddit comments, measuring syntax intricacy, noun usage, and abstractness. By bridging the gap between NLP and psychological insights, I aim to explore how language reflects intellectual evolution.
           </p>
           <p className="text-justify mt-2">
             <strong>Tools:</strong> Python, PyTorch, Transformers, Reddit API, Data Analysis
