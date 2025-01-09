@@ -14,8 +14,8 @@ const Blog1Page = () => {
           <Image
             src="/images/Dal_Icon.png"
             alt="Dal De Artifex Icon"
-            width={44}
-            height={44}
+            width={50}
+            height={200}
             className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
           />
         </Link>
@@ -62,7 +62,7 @@ const Blog1Page = () => {
           <Image
             src="/images/creative_icon.png"
             alt="Creative Icon"
-            width={192}
+            width={250}
             height={200}
             className="h-48 w-50 hover:opacity-90 hover:scale-110 transition-opacity bg-transparent mb-8"
           />

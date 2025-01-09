@@ -13,8 +13,10 @@ const Blog2Page = () => {
           {/* Replace "Dal De Artifex" with Image */}
           <Image
             src="/images/Dal_Icon.png"
+            width={50}
+            height={200}
             alt="Dal De Artifex Icon"
-            className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
+            className="transition-transform transform hover:scale-110 hover:opacity-90"
           />
         </Link>
 
@@ -34,6 +36,7 @@ const Blog2Page = () => {
           <Link
             href="https://www.linkedin.com/in/prachidalal2/"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-blue-600 transition-colors"
           >
             LinkedIn
@@ -41,6 +44,7 @@ const Blog2Page = () => {
           <Link
             href="https://github.com/prachidalal0"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-blue-600 transition-colors"
           >
             GitHub
@@ -49,7 +53,7 @@ const Blog2Page = () => {
       </header>
 
       {/* Page Content */}
-      <main className="flex flex-col items-start justify-start flex-grow p-8 pl-12 relative">
+      <main className="flex flex-col items-start justify-start flex-grow p-8 relative">
         {/* Floating Icon */}
         <Link
           href="https://github.com/prachidalal0/Reddit-Complexity-LLM"
@@ -59,15 +63,18 @@ const Blog2Page = () => {
         >
           <Image
             src="/images/SES.png"
-            alt="Creative Icon"
-            className="h-48 w-50 hover:opacity-90 hover:scale-110 transition-opacity bg-transparent mb-8"
+            alt="Socioeconomic Gaps Icon"
+            width={192}
+            height={200}
+            className="hover:opacity-90 hover:scale-110 transition-transform bg-transparent mb-8"
           />
         </Link>
 
         {/* Title */}
         <div className="mt-56 mb-4">
           <h2 className="text-4xl font-semibold text-gray-800 italic underline leading-normal">
-          Language and Socioeconomic Gaps will Exponentially Increase with the Introduction of AI          </h2>
+            Language and Socioeconomic Gaps will Exponentially Increase with the Introduction of AI
+          </h2>
           <h3 className="text-3xl font-semibold text-gray-800 italic leading-tight mt-1">
             A work in progress.......stay tuned :)
           </h3>

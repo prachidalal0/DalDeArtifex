@@ -29,14 +29,15 @@ const BlogPage = () => {
 
   return (
     <div className="flex flex-col min-h-screen p-0 m-0 bg-gray-100">
-     {/* Header Section */}
-     <header className="flex justify-between items-center w-full p-4 bg-black text-white sticky top-0 z-10">
+      {/* Header Section */}
+      <header className="flex justify-between items-center w-full p-4 bg-black text-white sticky top-0 z-10">
         <Link href="/" className="hover:underline">
-          {/* Replace "Dal De Artifex" with Image */}
           <Image
             src="/images/Dal_Icon.png"
+            width={50}
+            height={50}
             alt="Dal De Artifex Icon"
-            className="h-11 transition-transform transform hover:scale-110 hover:opacity-100"
+            className="transition-transform transform hover:scale-110 hover:opacity-90"
           />
         </Link>
 
@@ -56,6 +57,7 @@ const BlogPage = () => {
           <Link
             href="https://www.linkedin.com/in/prachidalal2/"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-blue-600 transition-colors"
           >
             LinkedIn
@@ -63,6 +65,7 @@ const BlogPage = () => {
           <Link
             href="https://github.com/prachidalal0"
             target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-blue-600 transition-colors"
           >
             GitHub
@@ -71,7 +74,7 @@ const BlogPage = () => {
       </header>
 
       {/* Blog Page Content */}
-      <main className="flex flex-col items-start justify-center flex-grow p-8 pb-52">
+      <main className="flex flex-col items-start justify-center flex-grow px-8 pt-4 pb-96">
         <h2 className="text-2xl font-bold italic underline text-gray-800 mb-8">
           Exploring Socioeconomic Linguistic Patterns: Fine-Tuning LLMs for
           Nuanced Semantic Analysis to Assess Socioeconomic Variations in
@@ -79,19 +82,23 @@ const BlogPage = () => {
         </h2>
 
         {/* Blog Posts Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full pb-64">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
           {blogPosts.map((post) => (
             <Link
               key={post.id}
               href={post.link}
-              className="group block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              className="group block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+              style={{ height: "300px" }}
             >
-              <Image
-                src={post.image}
-                alt={post.title}
-                className="w-full h-48 object-cover group-hover:opacity-90"
-              />
-              <div className="p-4">
+              <div className="relative w-full h-[200px] overflow-hidden">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+              <div className="p-4 text-center">
                 <h3 className="text-lg font-semibold text-gray-800 group-hover:text-blue-600">
                   {post.title}
                 </h3>

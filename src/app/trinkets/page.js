@@ -13,6 +13,8 @@ const Trinkets = () => {
           {/* Replace "Dal De Artifex" with Image */}
           <Image
             src="/images/Dal_Icon.png"
+            width={50} // Correct
+            height={200} // Correct
             alt="Dal De Artifex Icon"
             className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
           />

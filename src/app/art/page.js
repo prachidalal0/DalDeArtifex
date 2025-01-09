@@ -12,11 +12,11 @@ const Art = () => {
         <Link href="/" className="hover:underline">
           {/* Replace "Dal De Artifex" with Image */}
           <Image
-          src="/images/Dal_Icon.png"
-          width={200} // Correct
-          height={200} // Correct
-          alt="Dal De Artifex Icon"
-          className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
+            src="/images/Dal_Icon.png"
+            width={50} 
+            height={200} 
+            alt="Dal De Artifex Icon"
+            className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
         />
         </Link>
 

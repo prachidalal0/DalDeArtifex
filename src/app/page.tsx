@@ -12,8 +12,10 @@ export default function Home() {
         <Link href="/" className="hover:underline">
           <Image
             src="/images/Dal_Icon.png"
+            width={50} // Correct
+            height={200} // Correct
             alt="Dal De Artifex Icon"
-            className="h-11 transition-transform transform hover:scale-110 hover:opacity-100"
+            className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
           />
         </Link>
 
@@ -76,6 +78,8 @@ export default function Home() {
         <Image
           src="/images/profile_pic.png"
           alt="Prachi Dalal"
+          width={200} // Correct
+          height={200} // Correct
           className="w-40 h-40 rounded-full mb-4 shadow-lg object-cover"
         />
         <h1 className="text-3xl font-bold text-gray-800">Prachi Dalal</h1>
@@ -87,7 +91,7 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Strengths Section */}
+     {/* Strengths Section */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-12 mt-12">
         {[
           {
@@ -113,7 +117,9 @@ export default function Home() {
             <Image
               src={strength.icon}
               alt={`${strength.title} Icon`}
-              className="w-22 h-20 mb-4"
+              width={88} // Specify width (e.g., 88px)
+              height={80} // Specify height (e.g., 80px)
+              className="mb-4"
             />
             <h2 className="text-xl font-semibold text-gray-800">{strength.title}</h2>
             <p className="text-justify text-gray-600 mt-2">{strength.description}</p>
