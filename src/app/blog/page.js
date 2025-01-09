@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const BlogPage = () => {
   // Example blog posts data
@@ -32,7 +33,7 @@ const BlogPage = () => {
      <header className="flex justify-between items-center w-full p-4 bg-black text-white sticky top-0 z-10">
         <Link href="/" className="hover:underline">
           {/* Replace "Dal De Artifex" with Image */}
-          <img
+          <Image
             src="/images/Dal_Icon.png"
             alt="Dal De Artifex Icon"
             className="h-11 transition-transform transform hover:scale-110 hover:opacity-100"
@@ -85,7 +86,7 @@ const BlogPage = () => {
               href={post.link}
               className="group block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
             >
-              <img
+              <Image
                 src={post.image}
                 alt={post.title}
                 className="w-full h-48 object-cover group-hover:opacity-90"

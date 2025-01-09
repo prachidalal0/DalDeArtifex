@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Art = () => {
   return (
@@ -10,11 +11,13 @@ const Art = () => {
       <header className="flex justify-between items-center w-full p-4 bg-black text-white sticky top-0 z-10">
         <Link href="/" className="hover:underline">
           {/* Replace "Dal De Artifex" with Image */}
-          <img
-            src="/images/Dal_Icon.png"
-            alt="Dal De Artifex Icon"
-            className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
-          />
+          <Image
+          src="/images/Dal_Icon.png"
+          width={200} // Correct
+          height={200} // Correct
+          alt="Dal De Artifex Icon"
+          className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
+        />
         </Link>
 
         <nav className="flex gap-6 text-lg font-medium">

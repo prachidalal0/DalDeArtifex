@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Blog2Page = () => {
   return (
@@ -10,7 +11,7 @@ const Blog2Page = () => {
       <header className="flex justify-between items-center w-full p-4 bg-black text-white sticky top-0 z-10">
         <Link href="/" className="hover:underline">
           {/* Replace "Dal De Artifex" with Image */}
-          <img
+          <Image
             src="/images/Dal_Icon.png"
             alt="Dal De Artifex Icon"
             className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
@@ -56,7 +57,7 @@ const Blog2Page = () => {
           rel="noopener noreferrer"
           className="absolute top-8 left-12 z-10"
         >
-          <img
+          <Image
             src="/images/SES.png"
             alt="Creative Icon"
             className="h-48 w-50 hover:opacity-90 hover:scale-110 transition-opacity bg-transparent mb-8"

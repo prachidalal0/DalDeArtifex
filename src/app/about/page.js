@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const AboutPage = () => {
   return (
@@ -10,10 +11,12 @@ const AboutPage = () => {
       <header className="flex justify-between items-center w-full p-4 bg-black text-white sticky top-0 z-10">
         <Link href="/" className="hover:underline">
           {/* Replace "Dal De Artifex" with Image */}
-          <img
+          <Image
             src="/images/Dal_Icon.png"
             alt="Dal De Artifex Icon"
-            className="h-11 transition-transform transform hover:scale-110 hover:opacity-90"
+            width={44}
+            height={44}
+            className="transition-transform transform hover:scale-110 hover:opacity-90"
           />
         </Link>
 
@@ -56,10 +59,12 @@ const AboutPage = () => {
           rel="noopener noreferrer"
           className="absolute top-8 left-1/2 transform -translate-x-1/2 z-10"
         >
-          <img
+          <Image
             src="/images/Dal_Icon.png"
             alt="Dal De Artifex Icon"
-            className="h-48 w-50 hover:opacity-90 hover:scale-110 transition-opacity bg-transparent"
+            width={200}
+            height={200}
+            className="hover:opacity-90 hover:scale-110 transition-opacity bg-transparent"
           />
         </Link>
 
@@ -123,6 +128,16 @@ const AboutPage = () => {
               EMF
             </Link>{" "}
             (electromagnetic fields) in these systems. While technology can mimic abstraction, it has yet to replicate the depth that drives humanity&apos;s greatest creations. The concept of the &quot;splitting of the artist&quot; envisions technology not as a replacement for human creativity, but as a tool to deepen and expand it.
+            <br />
+            <br />
+            This website also examines how technology has given rise to a &quot;hive mind,&quot; collapsing the boundaries of three-dimensional space into a shared, two-dimensional digital plane where we can exist simultaneously across multiple realms. Threads of collective knowledge and thought weave together, sparking connections that lead to entirely new ideas. The most remarkable neural network you will ever find is the one inside your head—and now it has the opportunity to train on an unprecedented wealth of data collected through this hive mind!
+            <br />
+            <br />
+            Fueled by my personal love for computer science, language, philosophy, and{" "}
+            <Link href="/art" className="text-blue-600 hover:underline">
+              art
+            </Link>
+            , Dal De Artifex serves as a collection of multidisciplinary projects that bridge technical exploration, philosophical concepts, and artistic endeavors. It reflects my fascination with how technology shapes the way we think, create, and connect, while celebrating the enduring power of human abstraction in driving intellectual and cultural progress.
           </p>
         </div>
       </main>
